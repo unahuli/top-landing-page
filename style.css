@@ -18,3 +18,20 @@ footer {
 .company-name {
   color: #F9FAF8;
 }
+
+.header-intro h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+/* header secondary text and nav links font color and size*/
+.header-secondary-text,
+nav a{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+/* remove text decoration form links */
+a {
+  text-decoration: none;
+}
