@@ -35,3 +35,10 @@ nav a{
 a {
   text-decoration: none;
 }
+
+/* img */
+.header-intro img {
+  clip-path: inset(70px 0);
+}
+
+
