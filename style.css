@@ -18,15 +18,15 @@ body {
 
 /* header logo and nav layout */
 .header-container {
-  display: flex;
-  flex-direction: column;
-  padding: 0 6vw;
+  /* display: flex;
+  flex-direction: column; */
+  padding: 0 8vw 15vh 8vw;
 }
 
 .header-nav {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 7%;
+  margin-bottom: 5%;
 }
 
 .header-nav figure {
@@ -52,6 +52,20 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 5%;
+  /* margin-bottom: 7%; */
+}
+
+.header-intro section *{
+  margin-bottom: 2.33%;
+}
+
+/* main layout */
+.main-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.33%;
+  padding: 0 8vw 15vh 8vw;
 }
 
 
@@ -96,11 +110,11 @@ nav li {
   /* width: 100%; */
   max-width: 600px;
   min-width: 500px;
-  clip-path: inset(70px 0);
+  clip-path: inset(40px 0);
 }
 
 
-/* main content */
+/* main content design */
 
 main {
   color: #1F2937;
@@ -111,19 +125,31 @@ main h2 {
   /* color: #1F2937; */
   font-size: 36px;
   font-weight: 800;
+  text-align: center;
+  padding: 8vh 0;
 }
 
 /* main img */
-main figure img {
-  width: 100px;
-  height: 100px;
+.main-information figure {
+  text-align: center;
+  max-width: 150px;
+}
+
+.main-information figure img {
+  width: 125px;
+  height: 125px;
   border: 2px solid #3882F6;
   border-radius: 8px;
+}
+
+.main-information figcaption {
+  text-align: center;
 }
 
 /* div quote background-color */
 .quote {
   background-color: #E5E7EB;
+  padding: 0 8vw;
 }
 
 /* quote font design */
@@ -144,6 +170,7 @@ cite {
 .call-action {
   background-color: #3882F6;
   color: #F9FAF8;
+  padding: 0 8vw;
 }
 
 .call-action p:first-child {
