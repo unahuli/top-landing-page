@@ -20,7 +20,7 @@ body {
 .header-container {
   /* display: flex;
   flex-direction: column; */
-  padding: 0 8vw 15vh 8vw;
+  padding: 0 10vw 15vh 10vw;
 }
 
 .header-nav {
@@ -65,7 +65,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1.33%;
-  padding: 0 8vw 15vh 8vw;
+  padding: 0 10vw 15vh 10vw;
 }
 
 
@@ -126,7 +126,7 @@ main h2 {
   font-size: 36px;
   font-weight: 800;
   text-align: center;
-  padding: 8vh 0;
+  padding: 6vh 0;
 }
 
 /* main img */
