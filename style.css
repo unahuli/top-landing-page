@@ -6,21 +6,13 @@
 
 body {
   font-family: Outfit, sans-serif;
-  /* color: #F9FAF8; */
-
-  /* layout */
-  /* display: flex;
-  flex-direction: column; */
-  /* padding-right: 24px; */
 }
 
 /* header layout */
 
 /* header logo and nav layout */
 .header-container {
-  /* display: flex;
-  flex-direction: column; */
-  padding: 0 10vw 15vh 10vw;
+  padding: 0 23vw 15vh 23vw;
 }
 
 .header-nav {
@@ -52,7 +44,6 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 5%;
-  /* margin-bottom: 7%; */
 }
 
 .header-intro section *{
@@ -62,11 +53,16 @@ body {
 /* main layout */
 .main-information {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 1.33%;
-  padding: 0 10vw 15vh 10vw;
+  padding: 0 28vw 15vh 28vw;
 }
+
+/* footer layout */
+footer {
+  text-align: center;
+  padding: 3%;
+}  
 
 
 /* Header and Footer background color */
@@ -78,7 +74,6 @@ footer {
 
 /* Company name font color */
 .company-name {
-  /* color: #F9FAF8; */
   font-size: 24px;
   text-decoration: underline;
   text-transform: uppercase;
@@ -89,7 +84,6 @@ footer {
 .header-intro h1 {
   font-size: 48px;
   font-weight: 800;
-  /* color: #F9FAF8; */
 }
 
 /* header secondary text and nav links font color and size*/
@@ -107,7 +101,6 @@ nav li {
 
 /* img */
 .header-intro img {
-  /* width: 100%; */
   max-width: 600px;
   min-width: 500px;
   clip-path: inset(40px 0);
@@ -122,7 +115,6 @@ main {
 
 /* information header font design */
 main h2 {
-  /* color: #1F2937; */
   font-size: 36px;
   font-weight: 800;
   text-align: center;
@@ -136,20 +128,16 @@ main h2 {
 }
 
 .main-information figure img {
-  width: 125px;
-  height: 125px;
-  border: 2px solid #3882F6;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
   border-radius: 8px;
-}
-
-.main-information figcaption {
-  text-align: center;
 }
 
 /* div quote background-color */
 .quote {
   background-color: #E5E7EB;
-  padding: 0 8vw;
+  padding: 10vh 28vw;
 }
 
 /* quote font design */
@@ -157,23 +145,30 @@ q {
   font-size: 36px;
   font-style: italic;
   font-weight: 200;
-  /* color: #1F2937; */
 }
 
 cite {
   font-style: normal;
-  /* color: #1F2937; */
   font-weight: 600;
+  display: block;
+  text-align: end;
 }
 
 /* call to action section design */
 .call-action {
   background-color: #3882F6;
   color: #F9FAF8;
-  padding: 0 8vw;
+  padding: 5vh 8vw;
+  margin: 10vh 15vw;
+  border-radius: 8px;
+  
+  /* layout */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.call-action p:first-child {
+.call-out p:first-child {
   font-size: 18px;
   font-weight: bold;
 }
